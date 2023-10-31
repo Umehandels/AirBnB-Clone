@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Airbnb Clone</title>
     <link rel="stylesheet" href="styel.css">
+    <script src="https://kit.fontawesome.com/a1d7a4f8ab.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="header">
-      <nav>
+      <nav id="navBar">
         <img src="images/logo.png" class="logo">
         <ul class="nav-links">
-          <li><a href="#">Popular Places</a></li>
+          <li><a href="#" class="active">Popular Places</a></li>
           <li><a href="#">Travel Outside</a></li>
           <li><a href="#">Online Packages</a></li>
         </ul>
         <a href="#" class="regiter-btn">Register Now</a>
+        <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
       </nav>
 
       <div class="container">
@@ -127,10 +129,25 @@
           <p>Best experience you get while traveling to Thailand</p>
         </div>
       </div>
-      
+      <a href="#" class="start-btn">Start making money</a>
+
+      <div class="about-msg">
+        <h2>About Staybnb</h2>
+        <p>Contrary to popular belief, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis dignissimos quo excepturi officia minus accusantium laboriosam dicta quos quia sunt distinctio totam, voluptas quod est rerum facere. Consequuntur, quisquam mollitia!</p>
+      </div>
+
+      <div class="footer">
+        <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        <hr>
+        <p>Copyright &#169; 2021, Easy Tutorials.</p>
+      </div>
 
     </div>
 
-    
+    <script src="script.js"></script>
   </body>
 </html>
