@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'poopins', sans-serif;
 }
+img{
+  cursor: pointer;
+}
 .header{
   min-height: 100vh;
   width: 100%;
@@ -714,7 +717,6 @@ nav .fa-bars{
   width: 100%;
   position: fixed;
   z-index: 100;
-  
 }
 
 
