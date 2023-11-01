@@ -40,6 +40,10 @@ nav{
   border-radius: 20px;
   text-decoration: none;
   font-size: 14px;
+  transition: 0.3s;
+}
+.register-btn:hover{
+  background: hsl(0, 0%, 90%);
 }
 .container{
   padding: 0 7%;
@@ -245,6 +249,12 @@ nav{
   bottom: -12px;
   border-radius: 2px;
 }
+.active-1:hover{
+  opacity: .7;
+}
+.active:hover{
+  opacity: .7;
+}
 nav .fa-bars{
   display: none;
 }
@@ -360,6 +370,10 @@ nav .fa-bars{
 .navbar-white .register-btn{
   background: #ff5361;
   color: #fff;
+  transition: 0.4s;
+}
+.navbar-white .register-btn:hover{
+  background-color: hsl(355, 98%, 40%);
 }
 .navbar-white .fa-bars{
   color: #000;
